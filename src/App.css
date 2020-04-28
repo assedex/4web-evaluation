@@ -13,19 +13,3 @@
 .login__error--active {
   visibility: visible;
 }
-
-.grid {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.grid__line {
-  display: flex;
-  justify-content: space-around;
-}
-
-.grid__cell {
-  width: 10px;
-  cursor: pointer;
-}

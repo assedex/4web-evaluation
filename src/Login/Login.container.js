@@ -12,8 +12,9 @@ const EnhanceLogin = props => {
     const formHandler = e => {
         e.preventDefault();
         if(email === "contact@web.fr" && password === "azerty") {
-            history.push("./dashboard");
+            history.push("./Tab");
         }
+        else alert("Identifiants ou mot de passe incorrects");
     };
 
     
