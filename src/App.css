@@ -1,0 +1,31 @@
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.login__error {
+  color: red;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.login__error--active {
+  visibility: visible;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.grid__line {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid__cell {
+  width: 10px;
+  cursor: pointer;
+}
